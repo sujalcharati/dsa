@@ -20,3 +20,6 @@ func singleNumber(nums []int) int {
     }
     return result
 }
+
+
+//  I learned how the x-0R operation is used for the remove the duplication of the number e.g., a^a=0 , a^0 =1
