@@ -43,3 +43,5 @@ func removeElements(head *ListNode, val int) *ListNode {
     }
     return head
 }
+
+// what i learned from here is that current pointer points to itself especially my doubt is clear here for the last and second last iteration 
