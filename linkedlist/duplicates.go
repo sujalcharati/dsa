@@ -40,4 +40,5 @@ func deleteDuplicates(head *ListNode) *ListNode {
 }
 
 
-// what i learned from here is that to skip the next thing use the next pointer
+// what i learned from here is that to skip the next thing use the .next pointer
+// let's say you have a linked list 1->2->3->4->5 and you want to skip the 2nd node, how you can do is just current.next = current.next.next
