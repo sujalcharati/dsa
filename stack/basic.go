@@ -110,3 +110,82 @@ func main(){
     fmt.Println(st.pop())
     fmt.Println(st.peek())
 }
+
+
+
+// implement stack using queue
+
+package main
+import "fmt"
+import (
+     "container/list"
+    )
+
+
+type stack struct {
+    queue *list.List
+}
+
+func ( s *stack) push( val int){
+    s.queue.PushBack(val)
+}
+
+func (s *stack) pop() int{
+    
+    if s.queue.Len() == 0 {
+       fmt.Println(" stack is empty")
+       return -1
+    }
+    
+    for s.queue.Len() > 1 {
+        front := s.queue.Front()
+        s.queue.Remove(front)
+        s.queue.PushBack(front.Value)
+    }
+    
+    top := s.queue.Front().Value.(int)
+    s.queue.Remove(s.queue.Front())
+    return top
+}
+
+
+func (s *stack) peek() int {
+    if s.queue.Len() == 0 {
+        fmt.Println("stack is empty")
+        return -1
+    }
+
+    for s.queue.Len() > 1 {
+        front := s.queue.Front()
+        s.queue.Remove(front)
+        s.queue.PushBack(front.Value)
+    }
+
+    top := s.queue.Front().Value.(int)
+
+    front := s.queue.Front()
+    s.queue.Remove(front)
+    s.queue.PushBack(front.Value)
+
+    return top
+}
+
+func main() {
+    stack := &stack{queue: list.New()}
+    fmt.Println("The elements in stack are:\n")
+
+    stack.push(10)
+    stack.push(20)
+
+    fmt.Println("Pop:", stack.pop())  
+    fmt.Println("Pop:", stack.pop())   
+    fmt.Println("Peek:", stack.peek())    
+
+    stack.push(30)
+    fmt.Println("Peek:", stack.peek())  
+    fmt.Println("Pop:", stack.pop())      
+    fmt.Println("Pop:", stack.pop())   
+}
+
+
+
