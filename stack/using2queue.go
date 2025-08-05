@@ -1,4 +1,9 @@
-import "fmt"
+package main
+
+import (
+    // "fmt"
+    "container/list"
+)
 
 
 type MyStack struct {
@@ -9,7 +14,7 @@ type MyStack struct {
 
 
 func Constructor() MyStack {
-    return Mystack {
+    return MyStack  {
         queue1: list.New(),
         queue2: list.New(),
     }
@@ -25,7 +30,7 @@ func (this *MyStack) Push(x int)  {
 func (this *MyStack) Pop() int {
 
     if this.queue1.Len() == 0 {
-        fmt.Println(" stack is empty")
+        // fmt.Println(" stack is empty")
         return 0
     }
 
@@ -49,7 +54,7 @@ func (this *MyStack) Pop() int {
 func (this *MyStack) Top() int {
     
     if this.queue1.Len() == 0 {
-        fmt.Prinln(" stack is empty")
+        // fmt.Println(" stack is empty")
         return -1
     }
 
@@ -71,18 +76,16 @@ func (this *MyStack) Top() int {
 
 func (this *MyStack) Empty() bool {
     
-    if this.queue1.Len() == 0 {
-        return true
-    }
-    return false 
+    return this.queue1.Len() == 0
 }
 
 
-/**
- * Your MyStack object will be instantiated and called as such:
- * obj := Constructor();
- * obj.Push(x);
- * param_2 := obj.Pop();
- * param_3 := obj.Top();
- * param_4 := obj.Empty();
- */
+// func main(){
+
+//     stack := Constructor()
+
+//     stack.Push(10)
+//     stack.Push(20)
+//     stack.Pop()
+//     stack.Top()
+// }
