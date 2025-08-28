@@ -3,5 +3,27 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Switch_case",
+            "request": "launch",
+            "mainClass": "basics.Switch_case",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "Nested_if_else",
+            "request": "launch",
+            "mainClass": "basics.Nested_if_else",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "Input",
+            "request": "launch",
+            "mainClass": "basics.Input",
+            "projectName": "dsa_3216bad5"
+        }
+    ]
 }
