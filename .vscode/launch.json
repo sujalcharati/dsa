@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "a_to_z",
+            "request": "launch",
+            "mainClass": "pattern.a_to_z",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "Switch_case",
             "request": "launch",
             "mainClass": "basics.Switch_case",
