@@ -8,6 +8,13 @@
             "type": "java",
             "name": "a_to_z",
             "request": "launch",
+            "mainClass": "a_to_z",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "a_to_z",
+            "request": "launch",
             "mainClass": "pattern.a_to_z",
             "projectName": "dsa_3216bad5"
         },
