@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverse_number",
+            "request": "launch",
+            "mainClass": "maths.reverse_number",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "count_digit",
+            "request": "launch",
+            "mainClass": "maths.count_digit",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "a_to_z",
             "request": "launch",
             "mainClass": "a_to_z",
