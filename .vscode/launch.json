@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "maths.palindrome",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "reverse_number",
             "request": "launch",
             "mainClass": "maths.reverse_number",
