@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "gcd_twoNumber",
+            "request": "launch",
+            "mainClass": "maths.gcd_twoNumber",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "palindrome",
             "request": "launch",
             "mainClass": "maths.palindrome",
