@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "armstrong",
+            "request": "launch",
+            "mainClass": "maths.armstrong",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "gcd_twoNumber",
             "request": "launch",
             "mainClass": "maths.gcd_twoNumber",
