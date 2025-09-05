@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prime_number",
+            "request": "launch",
+            "mainClass": "maths.prime_number",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "print_all_divisors",
+            "request": "launch",
+            "mainClass": "maths.print_all_divisors",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "armstrong",
             "request": "launch",
             "mainClass": "maths.armstrong",
