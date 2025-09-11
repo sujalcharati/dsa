@@ -278,3 +278,178 @@
 //     }
     
 // }
+
+
+
+// reverse an array without recursion
+
+// public class basic {
+
+
+
+//     public static void main(String[] args) {
+        
+//         int arr[] = {2, 3, 4};
+
+//         int first = 0;
+//         int last = arr.length - 1;
+
+//         while (first < last) {
+//             int temp = arr[first];
+//             arr[first] = arr[last];
+//             arr[last] = temp;
+//             first++;
+//             last--;
+//         }
+
+//         System.out.println(java.util.Arrays.toString(arr));
+
+//     }
+
+     
+// }
+
+
+//reverse an array with recursion using two pointers 
+
+// public class basic {
+
+
+//     static void arrayReverse(int left ,int right,int[] arr){
+
+//         if (left >= right) {
+//             return;
+//         }
+//         int temp = arr[left];
+//         arr[left] = arr[right];
+//         arr[right]= temp;
+//         arrayReverse(left + 1, right - 1, arr);
+//     }
+
+
+//     public static void main(String[] args) {
+        
+//         int arr[] = {2, 3, 4};
+
+//         int first = 0;
+//         int last = arr.length - 1;
+//         arrayReverse(first,last,arr);
+//         System.out.println(java.util.Arrays.toString(arr));
+//     }
+
+     
+// }
+
+
+
+
+// reverse an array with recursion with single pointer 
+
+// import java.util.Scanner;
+
+// public class basic {
+
+
+//     static void arrayReverse(int i,int[] arr){
+
+//         int n = arr.length;
+
+//         if (i >= n/2) {
+//             return;
+//         }
+
+//         int temp = arr[i];
+//         arr[i] = arr[n-i-1];
+//         arr[n-i-1]= temp;
+//         arrayReverse(i+1, arr);
+//     }
+
+
+//     public static void main(String[] args) {
+        
+//         // int arr[] = {2, 3, 4};
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.println("Enter the size of the array:");
+//         int size = sc.nextInt();
+//         int arr[] = new int[size];
+
+//         System.out.println("Enter the elements of the array:");
+//         for(int i = 0; i < size; i++) {
+//             arr[i] = sc.nextInt();
+//         }
+
+//         int i = 0;
+//         arrayReverse(i, arr);
+//         System.out.println(java.util.Arrays.toString(arr));
+//     }
+
+     
+// }
+
+
+// check palindrome with the help of recursion 
+
+
+// import java.util.Scanner;
+// public class basic {
+
+
+//     static boolean checkPalindrome(String string,int n,int i){
+
+//         if(i >=n/2){
+//             return true;
+//         }
+
+//     if(string.charAt(i) != string.charAt(n-i-1)){
+//              return false;
+
+//     }
+//        return checkPalindrome(string,n,i+1);    
+//     }
+
+
+//     public static void main(String[] args) {
+        
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter the string:");
+//         String string = sc.nextLine();
+//         int n = string.length();
+//         int i=0;
+
+//         System.out.println(checkPalindrome(string,n,i));
+
+     
+//     }
+
+     
+// }
+
+
+
+
+// check the fibonacci series ...
+
+import java.util.Scanner;
+
+public class basic {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print(" Enter the number:");
+        int n = sc.nextInt();
+        int[] arr = new int[n + 1];
+        arr[0] = 0;
+        if (n > 0) arr[1] = 1;
+        for (int i = 2; i <= n; i++) {
+            arr[i] = arr[i - 1] + arr[i - 2];
+        }
+        System.out.print("answer is :");
+        for (int i = 0; i <= n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+        sc.close();
+    }
+}

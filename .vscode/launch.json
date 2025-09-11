@@ -8,6 +8,13 @@
             "type": "java",
             "name": "basic",
             "request": "launch",
+            "mainClass": "basic",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "basic",
+            "request": "launch",
             "mainClass": "recursion.basic",
             "projectName": "dsa_3216bad5"
         },
