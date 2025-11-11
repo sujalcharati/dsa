@@ -431,25 +431,49 @@
 
 // check the fibonacci series ...
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class basic {
+// public class basic {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print(" Enter the number:");
-        int n = sc.nextInt();
-        int[] arr = new int[n + 1];
-        arr[0] = 0;
-        if (n > 0) arr[1] = 1;
-        for (int i = 2; i <= n; i++) {
-            arr[i] = arr[i - 1] + arr[i - 2];
-        }
-        System.out.print("answer is :");
-        for (int i = 0; i <= n; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-        sc.close();
-    }
-}
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print(" Enter the number:");
+//         int n = sc.nextInt();
+//         int[] arr = new int[n + 1];
+//         arr[0] = 0;
+//         if (n > 0) arr[1] = 1;
+//         for (int i = 2; i <= n; i++) {
+//             arr[i] = arr[i - 1] + arr[i - 2];
+//         }
+//         System.out.print("answer is :");
+//         for (int i = 0; i <= n; i++) {
+//             System.out.print(arr[i] + " ");
+//         }
+//         System.out.println();
+//         sc.close();
+//     }
+// }
+
+
+
+//fibonacci by recursion ...
+
+// import java.util.Scanner;
+
+// public class basic {
+//     static int giveFibonacci(int n){
+//         if(n<=1){
+//             return n;
+//         }
+//         return giveFibonacci(n-1) + giveFibonacci(n-2);
+//     }
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print(" Enter the number:");
+//         int n = sc.nextInt();
+//        System.out.println(giveFibonacci(n));
+//     }
+// }
+
+
