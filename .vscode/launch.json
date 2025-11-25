@@ -6,6 +6,209 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nextPermutation",
+            "request": "launch",
+            "mainClass": "array.medium.nextPermutation",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "rearrangeBySign",
+            "request": "launch",
+            "mainClass": "array.medium.rearrangeBySign",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "buyAndSellStock",
+            "request": "launch",
+            "mainClass": "array.medium.buyAndSellStock",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "kadanesAlgorithm",
+            "request": "launch",
+            "mainClass": "array.medium.kadanesAlgorithm",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "majorityElementOne",
+            "request": "launch",
+            "mainClass": "array.medium.majorityElementOne",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "sortOneTwoZero",
+            "request": "launch",
+            "mainClass": "array.medium.sortOneTwoZero",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "twoSum",
+            "request": "launch",
+            "mainClass": "array.medium.twoSum",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "longestSubArrayK",
+            "request": "launch",
+            "mainClass": "array.easy.longestSubArrayK",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "intersectionOfTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "array.easy.intersectionOfTwoSortedArrays",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "singleNumberOne",
+            "request": "launch",
+            "mainClass": "array.easy.singleNumberOne",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "maximumConsecutiveOnes",
+            "request": "launch",
+            "mainClass": "array.easy.maximumConsecutiveOnes",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "findMissingNumber",
+            "request": "launch",
+            "mainClass": "array.easy.findMissingNumber",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "uniounOfTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "array.easy.uniounOfTwoSortedArrays",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "linearSearch",
+            "request": "launch",
+            "mainClass": "array.easy.linearSearch",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "moveZerosToLast",
+            "request": "launch",
+            "mainClass": "array.easy.moveZerosToLast",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "leftRotateByOne",
+            "request": "launch",
+            "mainClass": "array.easy.leftRotateByOne",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "removeDuplicateFromSortedArray",
+            "request": "launch",
+            "mainClass": "array.easy.removeDuplicateFromSortedArray",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "isArraySorted",
+            "request": "launch",
+            "mainClass": "array.easy.isArraySorted",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "secondLargestElement",
+            "request": "launch",
+            "mainClass": "array.easy.secondLargestElement",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "largestElement",
+            "request": "launch",
+            "mainClass": "array.easy.largestElement",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "quickSort",
+            "request": "launch",
+            "mainClass": "sorting.quickSort",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "insertionSort_recursion",
+            "request": "launch",
+            "mainClass": "sorting.insertionSort_recursion",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSort_recursion",
+            "request": "launch",
+            "mainClass": "sorting.bubbleSort_recursion",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "mergeSort",
+            "request": "launch",
+            "mainClass": "sorting.mergeSort",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "insertionSort",
+            "request": "launch",
+            "mainClass": "sorting.insertionSort",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSort",
+            "request": "launch",
+            "mainClass": "sorting.bubbleSort",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "selectionSort",
+            "request": "launch",
+            "mainClass": "sorting.selectionSort",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "frequency",
+            "request": "launch",
+            "mainClass": "hashing.frequency",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "basics",
+            "request": "launch",
+            "mainClass": "hashing.basics",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "basic",
             "request": "launch",
             "mainClass": "basic",
