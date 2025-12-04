@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rotatedsortedarray0ne",
+            "request": "launch",
+            "mainClass": "binary_search.rotatedsortedarray0ne",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "countOccurence",
+            "request": "launch",
+            "mainClass": "binary_search.countOccurence",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "firstandlast",
+            "request": "launch",
+            "mainClass": "binary_search.firstandlast",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "floorAndCeil",
+            "request": "launch",
+            "mainClass": "binary_search.floorAndCeil",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "searchInsertPosition",
+            "request": "launch",
+            "mainClass": "binary_search.searchInsertPosition",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "upperBound",
+            "request": "launch",
+            "mainClass": "binary_search.upperBound",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "lowerBound",
+            "request": "launch",
+            "mainClass": "binary_search.lowerBound",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "binarySeach",
+            "request": "launch",
+            "mainClass": "binary_search.binarySeach",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "longestSequenceInArray",
+            "request": "launch",
+            "mainClass": "array.medium.longestSequenceInArray",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "leadersInArray",
+            "request": "launch",
+            "mainClass": "array.medium.leadersInArray",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "nextPermutation",
             "request": "launch",
             "mainClass": "array.medium.nextPermutation",
