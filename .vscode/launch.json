@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "countsubarrayswithsumk",
+            "request": "launch",
+            "mainClass": "array.medium.countsubarrayswithsumk",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "matrixSprialManner",
+            "request": "launch",
+            "mainClass": "array.medium.matrixSprialManner",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "rotateImage",
             "request": "launch",
             "mainClass": "array.medium.rotateImage",
