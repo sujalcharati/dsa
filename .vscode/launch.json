@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rotateImage",
+            "request": "launch",
+            "mainClass": "array.medium.rotateImage",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "rotatedsortedarrayTwo",
+            "request": "launch",
+            "mainClass": "binary_search.rotatedsortedarrayTwo",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "setMatrixZeros",
+            "request": "launch",
+            "mainClass": "array.medium.setMatrixZeros",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "rotatedsortedarray0ne",
             "request": "launch",
             "mainClass": "binary_search.rotatedsortedarray0ne",
