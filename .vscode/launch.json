@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pascalsTriangle",
+            "request": "launch",
+            "mainClass": "array.hard.pascalsTriangle",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "countsubarrayswithsumk",
             "request": "launch",
             "mainClass": "array.medium.countsubarrayswithsumk",
