@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "findminimuminRotatedSortedArray",
+            "request": "launch",
+            "mainClass": "binary_search.findminimuminRotatedSortedArray",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "pascalsTriangle",
             "request": "launch",
             "mainClass": "array.hard.pascalsTriangle",
