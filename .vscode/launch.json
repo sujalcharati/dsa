@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "singleElementInSortedArray",
+            "request": "launch",
+            "mainClass": "binary_search.singleElementInSortedArray",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "findminimuminRotatedSortedArray",
             "request": "launch",
             "mainClass": "binary_search.findminimuminRotatedSortedArray",
