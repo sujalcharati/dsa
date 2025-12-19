@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "findPeakElement",
+            "request": "launch",
+            "mainClass": "binary_search.findPeakElement",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "singleElementInSortedArray",
             "request": "launch",
             "mainClass": "binary_search.singleElementInSortedArray",
