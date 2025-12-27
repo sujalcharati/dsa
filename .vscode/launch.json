@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "kokoEatingBanana",
+            "request": "launch",
+            "mainClass": "binary_search.on_answers.kokoEatingBanana",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "square_root",
+            "request": "launch",
+            "mainClass": "binary_search.on_1d_array.on_answers.square_root",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "maximumWater",
+            "request": "launch",
+            "mainClass": "array.medium.maximumWater",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "threeSumProblem",
+            "request": "launch",
+            "mainClass": "array.hard.threeSumProblem",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "majorityElementTwo",
+            "request": "launch",
+            "mainClass": "array.hard.majorityElementTwo",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "howManyTimes",
+            "request": "launch",
+            "mainClass": "binary_search.howManyTimes",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "findPeakElement",
             "request": "launch",
             "mainClass": "binary_search.findPeakElement",
