@@ -36,8 +36,6 @@ package binary_search.on_answers;
 
 import java.util.*;
 
-import binary_search.on_1d_array.lowerBound;
-
 public class square_root {
 
     public static int findSQRT( int val){
