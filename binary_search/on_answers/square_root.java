@@ -32,7 +32,7 @@
 
 // better approach 
 
-package binary_search.on_answers;
+// package binary_search.on_answers;
 
 import java.util.*;
 

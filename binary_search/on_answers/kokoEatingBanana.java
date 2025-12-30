@@ -45,7 +45,7 @@
 
 // optimal approach 
 
-package binary_search.on_answers;
+// package binary_search.on_answers;
 
 public class kokoEatingBanana {
 
