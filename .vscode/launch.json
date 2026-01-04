@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "kthMissingNumber",
+            "request": "launch",
+            "mainClass": "kthMissingNumber",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "diffrenceInArray",
+            "request": "launch",
+            "mainClass": "contest.diffrenceInArray",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "minimumDaysToShip",
+            "request": "launch",
+            "mainClass": "minimumDaysToShip",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "smallestDivisor",
+            "request": "launch",
+            "mainClass": "smallestDivisor",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "mBoquets",
+            "request": "launch",
+            "mainClass": "mBoquets",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "nthRootNumber",
+            "request": "launch",
+            "mainClass": "binary_search.on_answers.nthRootNumber",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "kokoEatingBanana",
             "request": "launch",
             "mainClass": "binary_search.on_answers.kokoEatingBanana",
