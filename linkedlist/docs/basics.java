@@ -1,7 +1,5 @@
 package linkedlist.docs;
 
-import array.medium.nextPermutation;
-
 public class basics {
 
     public Node head;
@@ -131,7 +129,7 @@ public class basics {
 
         Node temp = head;
 
-        for( int i = 1; i < index; i++){
+        for( int i = 1; i < index-1; i++){
             temp = temp.next;
         }
         temp.next = temp.next.next;
