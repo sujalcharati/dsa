@@ -6,6 +6,146 @@
     "configurations": [
         {
             "type": "java",
+            "name": "deletionWithOutHead",
+            "request": "launch",
+            "mainClass": "linkedlist.learnlinkedlist.deletionWithOutHead",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "insertion",
+            "request": "launch",
+            "mainClass": "linkedlist.learnlinkedlist.insertion",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "basics",
+            "request": "launch",
+            "mainClass": "linkedlist.docs.basics",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "countNumberOfStrings",
+            "request": "launch",
+            "mainClass": "strings.medium.countNumberOfStrings",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "regex",
+            "request": "launch",
+            "mainClass": "strings.docs.regex",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "characterInsights",
+            "request": "launch",
+            "mainClass": "strings.docs.characterInsights",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "sumOfBeautyOfSubstrings",
+            "request": "launch",
+            "mainClass": "strings.medium.sumOfBeautyOfSubstrings",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "longestPalindromeSubstring",
+            "request": "launch",
+            "mainClass": "strings.medium.longestPalindromeSubstring",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "atoi",
+            "request": "launch",
+            "mainClass": "strings.medium.atoi",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "isAnagram",
+            "request": "launch",
+            "mainClass": "strings.easy.isAnagram",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "checkRotation",
+            "request": "launch",
+            "mainClass": "strings.easy.checkRotation",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "isomorphicString",
+            "request": "launch",
+            "mainClass": "strings.easy.isomorphicString",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "longestCommonPrefix",
+            "request": "launch",
+            "mainClass": "strings.easy.longestCommonPrefix",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "largestOddNumber",
+            "request": "launch",
+            "mainClass": "strings.easy.largestOddNumber",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "stringToChar",
+            "request": "launch",
+            "mainClass": "strings.docs.stringToChar",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "preetyPrinting",
+            "request": "launch",
+            "mainClass": "strings.docs.preetyPrinting",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "output",
+            "request": "launch",
+            "mainClass": "strings.docs.output",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "docs",
+            "request": "launch",
+            "mainClass": "strings.docs.docs",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "reverseString",
+            "request": "launch",
+            "mainClass": "strings.easy.reverseString",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "validParaenthesis",
+            "request": "launch",
+            "mainClass": "strings.easy.validParaenthesis",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "kthMissingNumber",
             "request": "launch",
             "mainClass": "kthMissingNumber",
