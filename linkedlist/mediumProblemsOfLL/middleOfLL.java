@@ -8,6 +8,13 @@
 //  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 //  * }
 //  */
+
+
+
+
+
+
+
 // class Solution {
 //     public ListNode middleNode(ListNode head) {
 
@@ -23,6 +30,13 @@
 //      return slow;
 //     }
 // }
+
+
+
+
+
+
+
 
 // package linkedlist.mediumProblemsOfLL;
 
