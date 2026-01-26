@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "intoduction",
+            "request": "launch",
+            "mainClass": "linkedlist.learndoublyLL.intoduction",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "intoduction",
+            "request": "launch",
+            "mainClass": "intoduction",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "deletionWithOutHead",
             "request": "launch",
             "mainClass": "linkedlist.learnlinkedlist.deletionWithOutHead",
