@@ -97,6 +97,50 @@ public class intoduction {
         return head;
     }
 
+    static intoduction insert_at_first_node(intoduction head){
+
+        intoduction temp = new intoduction(9);
+        temp.next = head;
+        head.prev = temp;
+        head = temp;
+
+        return head;
+        
+    }
+
+    static intoduction insert_at_last_node(intoduction head){
+
+        intoduction node = new intoduction(9);
+
+        intoduction temp = head;
+
+        while( temp!= null && temp.next != null){
+            temp = temp.next;
+        }
+        temp.next = node;
+        node.prev = temp;
+
+        return head;
+    }
+
+
+    static intoduction insert_at_k_index(intoduction head){
+        int index =4;
+         intoduction temp = head;
+         intoduction node = new intoduction(9);
+        for( int i=1; i< index; i++){
+
+              temp = temp.next;
+        }
+        intoduction next_node = temp.next;
+        temp.next = node;
+        node.prev = temp;
+        node.next = next_node;
+        if( next_node != null){
+            next_node.prev = node;
+        }
+        return head;
+    }
 
     public static void main(String[] args) {
         
@@ -114,13 +158,24 @@ public class intoduction {
 
         // intoduction data2 = deletelastnode(data);
         // printll(data2);
-         int index = 3;
-        intoduction data3 = delete_at_index_k(index, data);
-        printll(data3);
+
+        // int index = 3;
+        // intoduction data3 = delete_at_index_k(index, data);
+        // printll(data3);
 
 
-        intoduction data4 = delete_node_3(data);
-        printll(data4);
+        // intoduction data4 = delete_node_3(data);
+        // printll(data4);
+
+        // intoduction data1 = insert_at_first_node(data );
+        // printll(data1);
+        
+        // intoduction data2 = insert_at_last_node(data );
+        // printll(data2);
+
+        // intoduction data3 = insert_at_k_index(data);
+        // printll(data3);
+
 
     }
     
