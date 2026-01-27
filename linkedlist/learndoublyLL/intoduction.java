@@ -142,6 +142,22 @@ public class intoduction {
         return head;
     }
 
+
+    static intoduction reverseDLL( intoduction head){
+
+        intoduction curr = head;
+        intoduction last = null;
+         while ( curr != null) {
+            last = curr.prev;
+            curr.prev = curr.next;
+            curr.next = last;
+
+            curr = curr.prev;
+         }
+
+         return last.prev;
+    }
+
     public static void main(String[] args) {
         
 
@@ -175,6 +191,9 @@ public class intoduction {
 
         // intoduction data3 = insert_at_k_index(data);
         // printll(data3);
+
+        intoduction data1 = reverseDLL(data);
+        printll(data1);
 
 
     }
