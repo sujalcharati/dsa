@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stackUsingQueue",
+            "request": "launch",
+            "mainClass": "stack.fundamentalsQuestion.stackUsingQueue",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "queueUsingLL",
+            "request": "launch",
+            "mainClass": "stack.fundamentalsQuestion.queueUsingLL",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "stackUsingLL",
+            "request": "launch",
+            "mainClass": "stack.fundamentalsQuestion.stackUsingLL",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "queueUsingArrays",
+            "request": "launch",
+            "mainClass": "stack.fundamentalsQuestion.queueUsingArrays",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "stackUsingArrays",
+            "request": "launch",
+            "mainClass": "stack.fundamentalsQuestion.stackUsingArrays",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "validParenthesis",
+            "request": "launch",
+            "mainClass": "stack.fundamentalsQuestion.validParenthesis",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "reverseString",
+            "request": "launch",
+            "mainClass": "stack.fundamentalsQuestion.reverseString",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "intoduction",
             "request": "launch",
             "mainClass": "linkedlist.learndoublyLL.intoduction",
