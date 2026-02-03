@@ -1,4 +1,4 @@
-package stack.fundamentalsQuestion;
+package stackANDqueue.fundamentalsQuestion;
 
 import java.util.Stack;
 

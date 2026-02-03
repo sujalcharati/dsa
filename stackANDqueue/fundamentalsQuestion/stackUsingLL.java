@@ -1,4 +1,4 @@
-package stack.fundamentalsQuestion;
+package stackANDqueue.fundamentalsQuestion;
 
 public class stackUsingLL {
 

@@ -1,3 +1,4 @@
+package stackANDqueue.fundamentalsQuestion;
 // class MyQueue {
 
 //     Stack<Integer> st1;

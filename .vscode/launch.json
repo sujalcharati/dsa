@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "inToPrefixUsingStack",
+            "request": "launch",
+            "mainClass": "stack.conversionProblems.inToPrefixUsingStack",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "inToPostfixUsingStack",
+            "request": "launch",
+            "mainClass": "stack.conversionProblems.inToPostfixUsingStack",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "minStack",
+            "request": "launch",
+            "mainClass": "minStack",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "stackUsingQueue",
             "request": "launch",
             "mainClass": "stack.fundamentalsQuestion.stackUsingQueue",
