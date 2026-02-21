@@ -2,34 +2,74 @@
     
 // }
 
-class Solution {
-    public int trap(int[] height) {
 
-        int n = height.length;
+// brute force approach ...
 
-        if( n ==0) return 0;
-        int[] prefixsum = new int[n];
-        int[] suffixsum = new int[n];
+// class Solution {
+//     public int trap(int[] height) {
 
-        prefixsum[0] = height[0];
+//         int n = height.length;
 
-        for( int i=1; i< n; i++){
-            prefixsum[i] = Math.max( prefixsum[i-1],height[i]);
-        }
+//         if( n ==0) return 0;
+//         int[] prefixsum = new int[n];
+//         int[] suffixsum = new int[n];
 
-        suffixsum[n-1] = height[n-1];
+//         prefixsum[0] = height[0];
 
-        for( int i= n-2; i>=0; i--){
-            suffixsum[i] = Math.max( height[i],suffixsum[i+1]);
-        }
+//         for( int i=1; i< n; i++){
+//             prefixsum[i] = Math.max( prefixsum[i-1],height[i]);
+//         }
 
-        int total =0;
+//         suffixsum[n-1] = height[n-1];
 
-        for( int i=0; i< n; i++){
-            total+= Math.min(prefixsum[i], suffixsum[i])-height[i];
-        }
+//         for( int i= n-2; i>=0; i--){
+//             suffixsum[i] = Math.max( height[i],suffixsum[i+1]);
+//         }
 
-        return total;
+//         int total =0;
+
+//         for( int i=0; i< n; i++){
+//             total+= Math.min(prefixsum[i], suffixsum[i])-height[i];
+//         }
+
+//         return total;
         
-    }
-}
+//     }
+// }
+
+
+
+// optimal approach....
+
+// class Solution {
+//     public int trap(int[] height) {
+//         int leftmax =0;
+//         int rightmax =0;
+//         int total =0;
+//         int l=0;
+//         int r= height.length-1;
+
+//         while( l < r){
+
+//             if( height[l] <= height[r]){
+//                 if( leftmax > height[l]){
+//                     total+= leftmax- height[l];
+//                 }else{
+//                     leftmax= height[l];
+//                 }
+//                 l++;
+//             }else{
+
+//                 if( rightmax > height[r]){
+
+//                     total += rightmax-height[r];
+//                 }else{
+//                     rightmax= height[r];
+//                 }
+//                 r--;
+//             }
+//         }
+
+//         return total;
+//     }
+// }
