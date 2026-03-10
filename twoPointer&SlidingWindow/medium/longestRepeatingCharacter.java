@@ -1,3 +1,4 @@
+package medium;
 // brute force solution...
 
 // class Solution {
