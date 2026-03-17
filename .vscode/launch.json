@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "palindromeString",
+            "request": "launch",
+            "mainClass": "quickstart.palindromeString",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "reverseArray",
+            "request": "launch",
+            "mainClass": "quickstart.reverseArray",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "quickstart.factorial",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "sumOfFirstNnumbers",
+            "request": "launch",
+            "mainClass": "quickstart.sumOfFirstNnumbers",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "printnto1",
+            "request": "launch",
+            "mainClass": "quickstart.printnto1",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
+            "name": "print1ton",
+            "request": "launch",
+            "mainClass": "quickstart.print1ton",
+            "projectName": "dsa_3216bad5"
+        },
+        {
+            "type": "java",
             "name": "inToPrefixUsingStack",
             "request": "launch",
             "mainClass": "stack.conversionProblems.inToPrefixUsingStack",
