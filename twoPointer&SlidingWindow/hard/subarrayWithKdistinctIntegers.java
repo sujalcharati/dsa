@@ -24,3 +24,38 @@
 
 
 // optimal solution...
+
+
+// class Solution {
+
+//     public int atmost(int[] nums, int k){
+
+//              int l =0;
+//         HashMap<Integer, Integer> mapp = new HashMap<>();
+//         int count = 0;
+
+//         for( int r=0; r < nums.length; r++){
+            
+//             mapp.put( nums[r], mapp.getOrDefault(nums[r],0)+1);
+
+//             while( mapp.size() > k){
+
+//                 mapp.put( nums[l], mapp.get(nums[l])-1);
+
+//                 if( mapp.get(nums[l]) == 0){
+//                     mapp.remove(nums[l]);
+//                 }
+//                 l++;
+//             }
+
+//             count += r-l+1;
+ 
+//         }
+//         return count;
+
+//     }
+//     public int subarraysWithKDistinct(int[] nums, int k) {
+        
+//          return atmost(nums, k)- atmost(nums, k-1);
+//     }
+// }
